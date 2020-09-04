@@ -3,21 +3,21 @@
 totalCredits = 0
 #course 1
 grade = input("Enter your course 1 letter grade: ")
-if grade == "A" or grade == "a":
+if grade == "A":
   gradeWeight = 4.
-elif grade == "A-" or     grade == "a-":
+elif grade == "A-":
   gradeWeight = 3.67
-elif grade == "B+" or grade == "b+":
+elif grade == "B+":
   gradeWeight = 3.33
-elif grade == "B" or grade == "b":
+elif grade == "B":
   gradeWeight = 3.0
-elif grade == "B-" or grade == "b-":
+elif grade == "B-":
   gradeWeight = 2.67
-elif grade == "C+" or grade == "c+":
+elif grade == "C+":
   gradeWeight = 2.33
-elif grade == "C" or grade == "c":
+elif grade == "C":
   gradeWeight = 2.00
-elif grade == "D" or grade == "d":
+elif grade == "D":
   gradeWeight = 1.00
 else:
   gradeWeight = 0.0
@@ -29,21 +29,21 @@ gradePoint1 = gradeWeight * float(credit)
 
 #course 2
 grade = input("Enter your course 2 letter grade: ")
-if grade == "A" or grade == "a":
+if grade == "A":
   gradeWeight = 4.
-elif grade == "A-" or     grade == "a-":
+elif grade == "A-":
   gradeWeight = 3.67
-elif grade == "B+" or grade == "b+":
+elif grade == "B+":
   gradeWeight = 3.33
-elif grade == "B" or grade == "b":
+elif grade == "B":
   gradeWeight = 3.0
-elif grade == "B-" or grade == "b-":
+elif grade == "B-":
   gradeWeight = 2.67
-elif grade == "C+" or grade == "c+":
+elif grade == "C+":
   gradeWeight = 2.33
-elif grade == "C" or grade == "c":
+elif grade == "C":
   gradeWeight = 2.00
-elif grade == "D" or grade == "d":
+elif grade == "D":
   gradeWeight = 1.00
 else:
   gradeWeight = 0.0
@@ -55,21 +55,21 @@ print(f"Grade point for course 2 is: {gradeWeight}")
 
 #course 3
 grade = input("Enter your course 3 letter grade: ")
-if grade == "A" or grade == "a":
+if grade == "A":
   gradeWeight = 4.
-elif grade == "A-" or     grade == "a-":
+elif grade == "A-":
   gradeWeight = 3.67
-elif grade == "B+" or grade == "b+":
+elif grade == "B+":
   gradeWeight = 3.33
-elif grade == "B" or grade == "b":
+elif grade == "B":
   gradeWeight = 3.0
-elif grade == "B-" or grade == "b-":
+elif grade == "B-":
   gradeWeight = 2.67
-elif grade == "C+" or grade == "c+":
+elif grade == "C+":
   gradeWeight = 2.33
-elif grade == "C" or grade == "c":
+elif grade == "C":
   gradeWeight = 2.00
-elif grade == "D" or grade == "d":
+elif grade == "D":
   gradeWeight = 1.00
 else:
   gradeWeight = 0.0
