@@ -1,9 +1,6 @@
 # Author: Grace Lavin gcl5087@psu.edu
 # No Collaborator - HW
-
-
 totalCredits = 0
-
 #course 1
 grade = input("Enter your course 1 letter grade: ")
 if grade == "A" or grade == "a":
@@ -23,11 +20,12 @@ elif grade == "C" or grade == "c":
 elif grade == "D" or grade == "d":
   gradeWeight = 1.00
 else:
-  gradeWight = 0.0
+  gradeWeight = 0.0
 credit = input("Enter your course 1 credit: ")
+print(f"Grade point for course 1 is: {gradeWeight}")
 totalCredits = float(credit) + totalCredits
 gradePoint1 = gradeWeight * float(credit)
-print(f"Grade point for course 1 is: {gradeWeight}")
+
 
 #course 2
 grade = input("Enter your course 2 letter grade: ")
@@ -48,7 +46,7 @@ elif grade == "C" or grade == "c":
 elif grade == "D" or grade == "d":
   gradeWeight = 1.00
 else:
-  gradeWight = 0.0
+  gradeWeight = 0.0
 
 credit = input("Enter your course 2 credit: ")
 totalCredits = float(credit) + totalCredits
@@ -74,12 +72,14 @@ elif grade == "C" or grade == "c":
 elif grade == "D" or grade == "d":
   gradeWeight = 1.00
 else:
-  gradeWight = 0.0
+  gradeWeight = 0.0
 
 credit = input("Enter your course 3 credit: ")
+print(f"Grade point for course 3 is: {gradeWeight}")
 totalCredits = float(credit) + totalCredits
 gradePoint3 = gradeWeight * float(credit)
-print(f"Grade point for course 3 is: {gradeWeight}")
+
+
 
 #total gpa
 
